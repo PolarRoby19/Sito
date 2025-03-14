@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>Sito Roby</title>
+        <link rel="icon" type="image/jpg" href="nagi (2).jpg">
+    </head>
+    
+    <header>
+        <div id="Musica">
+            <audio id="song" src="Miku by Anamanaguchi (Lyrics Video).mp3" >
+                Il tuo browser non supporta l'elemento audio.
+            </audio>
+            <button class="button" id="playButton"><img class="image" src="play.png" ></button>
+            <button class="button" id="Stopbutton"><img class="image" src="images.png"></button>
+            <div id="slider">
+            <input class="slider" type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+            </div>
+        </div>
+        <div id="Titolo">
+            <h1 class="titolo">Sito Roby</h1>
+        </div>
+    </header>
+    <hr class="linea">
+    <h1 class="titolospoti">Playlist Spotify</h1>
+    <body>
+        <div id="spoti">
+            <iframe id="myFrame" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWVQfeA9N7Q0g?utm_source=generator" width="600px" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div id="paragrafo">
+            <p class="titolop">BENVENUTO!!</p>
+            <p class="paragrafo1">Siamo entusiasti di darvi il benvenuto nel nostro spazio online, un luogo dove l'innovazione, la passione e la comunità si fondono per creare un'esperienza unica. Che siate qui per la prima volta o siate visitatori abituali, vi invitiamo a esplorare, scoprire e connettervi con noi.</p>
+        </div>
+        <img class="immagine" src="ciao.webp">
+        <div id="bottone">
+            <button id="mioBottone" class="bottone" onclick="cambiaPagina('file:///C:/Users/disal/Desktop/sito%20web/Page1/pagina1.html')"><u>Vai alla pagina successiva</u></button>
+        </div>
+        <script src="script.js"></script> 
+    </body>
+</html>

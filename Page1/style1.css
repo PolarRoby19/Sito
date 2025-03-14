@@ -1,0 +1,62 @@
+html{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+h1 {
+    margin-top: 150px;
+    font-size: 24px;
+    font-family: Arial;
+    color: red;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+table {
+    margin-left: 400px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+th {
+    background-color: #72d6dd;
+}
+
+.recreazione {
+    font-family: Arial;
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ora{
+    background-color: white;
+    font-family: Arial;
+    font-size: 20px
+}
+
+.titolo{
+    text-align: center;
+}
+
+#bottone{
+    position: fixed;
+    bottom: 10px;
+}
+
+.bottone{
+    border:none;
+    background-color: transparent;
+    transition: box-shadow 0.3s;
+}
+
+.illuminato {
+    color: yellow;
+}
